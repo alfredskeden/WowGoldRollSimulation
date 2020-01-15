@@ -6,10 +6,10 @@ public class RunSimulation {
     PlayerDataCard player2 = new PlayerDataCard();
 
     public RunSimulation() {
-        player1.setAmountOfGold(3000);
-        player2.setAmountOfGold(6000);
-        player1.setName("Rymo");
-        player2.setName("JokerD");
+        player1.setAmountOfGold(500);
+        player2.setAmountOfGold(500);
+        player1.setName("Taffman");
+        player2.setName("Traxe");
         player1.setGoldThreshold(0);
         player2.setGoldThreshold(0);
     }
@@ -76,7 +76,7 @@ public class RunSimulation {
 
     private int bidAmount() {
 
-        return 5;
+        return 500;
     }
 
     private int Roll(int bid) {
